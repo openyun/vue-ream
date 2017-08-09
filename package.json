@@ -17,8 +17,7 @@
     "element-ui": "^1.4.1",
     "express": "^4.0.0",
     "http-proxy-middleware": "^0.17.4",
-    "ream": "^1.0.0-rc.1",
-    "vue-meta": "^1.0.5"
+    "ream": "^1.0.0-rc.1"
   },
   "license": "MIT"
 }

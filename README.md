@@ -4,7 +4,7 @@ vue的服务器渲染网上流传的demo和方法都与官方文档差不多，�
 无意中发了另一个基于vue扩展的服务器渲染框架ream.js。但除了ream官方一些简单的英文文档外，网络上没有一篇关于ream.js的介绍。但ream的使用非常简单方便，没有任何约束，只需通过ream命令生成项目后，完全跟使用vue一样的开发模式，连官方文档都不用看，没有额外的学习成本。
 
 这是通过ream.js框架利用豆瓣api图书接口开发的一个demo。
-## 运用到的扩展
+## 运行到的扩展
    ream(vue) + vuex + vue-router + element-ui + axios
 
 ## 通过ream扩展实现vue服务器渲染
@@ -27,6 +27,9 @@ vue的服务器渲染网上流传的demo和方法都与官方文档差不多，�
 #### 开启服务器渲染：
 `npm run start`
 
+#### demo截图
+<img src="./public/images/11.png"><BR/>
+<img src="./public/images/11.png">
 ## License
 
 MIT &copy; coolwind
