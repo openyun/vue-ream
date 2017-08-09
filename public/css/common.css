@@ -1,0 +1,91 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+a,a:hover {
+  color: #1D8CE0;
+  text-decoration: none;
+}
+a:hover {
+  color:#20A0FF;
+}
+.header-menu {
+  text-align: center;
+  border-radius: 0;
+}
+.header-menu > li.el-menu-item {
+  display: inline-block;
+  float: none;
+}
+.books-list .el-row{
+  text-align: center;
+}
+.books-list .el-col {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 290px;
+  float: none;
+  display: inline-block;
+}
+.books-list .el-card__body{
+  height: 150px;
+  overflow: hidden;
+  text-align: left;
+}
+.books-list .el-card__body> a.img-a {
+  float:left;
+  margin-right:8px;
+}
+.books-list .el-card__body img{
+  width: 100px;
+  height: 150px;
+}
+.books-list .el-card__body>.intron {
+  float:left;
+  vertical-align: top;
+  color: #8492A6;
+  line-height:23px;
+  width: 175px;
+}
+.books-list .el-card__body h3{
+  font-size: 16px;
+  margin: 5px 5px 5px 0;
+}
+.books-list .el-card__body>.intron>p,
+.books-list .el-card__body>.intron>.el-rate{
+  margin:6px 0;
+}
+.el-pagination {
+  text-align: right;
+  margin-right: 20px;
+}
+.book-detail{
+  margin-top: 20px;
+}
+.book-detail .book-intr > img{
+  float:left;
+  width: 200px;
+  height: 300px;
+  margin-right: 10px;
+}
+.book-detail .book-intr > .desc {
+  float:left;
+}
+.book-detail .book-intr > .desc > h3 {
+  font-size: 16px;
+  margin: 5px 5px 5px 0;
+}
+.book-detail .book-intr > .desc>p,
+.book-detail .book-intr > .desc>.el-rate{
+  margin:6px 0;
+}
+.book-detail .book-info .el-tab-pane {
+  line-height: 25px;
+}
+.author-books .el-card{
+  border: none;
+  box-shadow: none
+}
+.author-books .el-card__body {
+  padding-right:0px;
+}
